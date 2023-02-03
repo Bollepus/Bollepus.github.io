@@ -3,7 +3,7 @@ h1 {
     margin: 20px;
     justify-content: center;
     font-style: bold;
-    color: rgb(238, 168, 226);
+    color: rgb(255, 255, 255);
     
 }
 
@@ -11,15 +11,16 @@ p {
     align-self: center;
 }
 
-.tex {
-    display: inline-block;
-    color: rgb(0, 21, 109);
-    margin: 10px;
-    border-bottom: 0px;
-    border-top: 0px; 
+.box {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    color: white;
     border-style: ridge;
-    border-color: rgba(255, 46, 220, 0.68);
-    font-style: italic bold;
+    border-color: rgba(26, 14, 255, 0.68);
+    font-style: bold;
 }
 h2 {
     font-weight: 800;
@@ -27,8 +28,8 @@ h2 {
 }
 
 body {
-
+    align-items: center;
+    justify-content: center;
     background-color: #d700ff;
-    background-image: linear-gradient(98deg, #d700ff 0%, #16A085 50%, rgb(0, 21, 109) 100%);
-
+    background-image: linear-gradient(90deg, #fea116 0%, #030045 59%, rgb(79, 2, 2) 100%);
 }
