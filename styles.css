@@ -1,16 +1,17 @@
 h1 {
     font-style: bold;
-    color: whitesmoke;
+    color: rgb(238, 168, 226);
 }
 
 inline {
     display: inline-block;
-    border-bottom: 2px;
+    border-bottom: 4px;
     border-color: maroon;
+    font-style: italic bold;
 }
 h2 {
     font-weight: 800;
-    color: whitesmoke;
+    color: rgb(99, 92, 92);
 }
 
 body {
