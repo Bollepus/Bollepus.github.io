@@ -9,9 +9,6 @@ h1 {
 
 p {
     align-self: center;
-}
-
-.box {
     display: flexbox;
     align-items: center;
     justify-content: center;
@@ -19,9 +16,16 @@ p {
     margin: auto;
     color: white;
     border-style: ridge;
-    border-color: rgba(26, 14, 255, 0.68);
+    border-color: rgba(255, 225, 0, 0.68);
     font-style: bold;
 }
+
+.box {
+    border-bottom: 0px;
+
+}
+
+
 h2 {
     font-weight: 800;
     color: rgb(99, 92, 92);
