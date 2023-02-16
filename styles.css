@@ -1,14 +1,49 @@
 h1 {
     display: block;
-    margin: 20px;
     justify-content: center;
     font-style: bold;
     color: rgb(255, 255, 255);
-    
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    animation: 1s ease-out 0s 1 slideUp;
+    margin: 100px;
+    filter: drop-shadow(0px 0px 20px #460e1a);
+}
+
+h1:hover {
+    animation: 1s ease-out 0s 1 slideinLeft;
 }
 
 p {
-    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: -50px;
+    animation: 1s ease-out 0s 1 slideUp;
+}
+
+#navbar {
+    font-family: 'Poppins', sans-serif;
+    float:left;
+    margin-top: -142px;
+    margin-left: 1400px;
+  
+}
+
+#navbar a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    padding: 40px;
+}
+
+#navbar a:hover {
+    color: rgb(24, 2, 73);
+    transition: ease-in-out 0.3s;
+    text-decoration: underline;
 }
 
 .box {
@@ -31,5 +66,14 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #d700ff;
-    background-image: linear-gradient(90deg, #fea116 0%, #030045 59%, rgb(79, 2, 2) 100%);
+    background: linear-gradient(90deg, rgb(161, 46, 46) 0%, rgb(44, 45, 87) 100%);
 }
+
+keyframes slideUp {
+    0% {
+      transform: translatey(60%);
+    }
+    100% {
+      transform: translatey(0);
+    }
+    }
